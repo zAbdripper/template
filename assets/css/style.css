@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background: linear-gradient(to right, #1f1f1f, #2c3e50);
+  color: #fff;
+}
+
+header {
+  background: url('assets/img/bg.jpg') no-repeat center center/cover;
+  color: #fff;
+  padding: 100px 20px;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  margin-bottom: 20px;
+}
+
+/* Section Styling */
+section {
+  padding: 60px 0;
+}
+
+.bg-light {
+  background-color: #f8f9fa !important;
+  color: #333;
+}
+
+/* Project Cards */
+.project-card {
+  background-color: #333;
+  color: #ff0000;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Contact Section */
+#contact p {
+  margin: 10px 0;
+  font-size: 1.1rem;
+}
+
+/* Footer */
+footer {
+  background-color: #1b7fa7;
+  color: #0e3c91;
+  font-size: 0.9rem;
+}
